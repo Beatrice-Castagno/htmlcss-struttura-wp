@@ -1,5 +1,39 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container {
+width:80%;
+margin:auto;
+}
 .clearfix::after {
   content:"";
   display:block;
   clear:both;
+}
+
+.menu {
+  background-color: violet;
+  height:100px;
+  margin-bottom: 20px;
+}
+
+.banner{
+  background-color: khaki;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: lightblue;
+  height: 600px;
+  margin-bottom: 8px;
+}
+
+.end-page {
+  background-color: purple;
+  height: 50px;
+
 }
